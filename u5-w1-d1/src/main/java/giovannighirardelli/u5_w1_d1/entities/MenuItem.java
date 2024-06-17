@@ -10,7 +10,7 @@ import java.util.Random;
 @Getter
 @Setter
 @ToString
-public class MenuItem {
+public abstract class MenuItem {
     protected long id;
     protected int calorie;
     protected double prezzo;
