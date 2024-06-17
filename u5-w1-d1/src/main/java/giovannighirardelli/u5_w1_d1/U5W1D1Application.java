@@ -1,7 +1,7 @@
 package giovannighirardelli.u5_w1_d1;
 
 import giovannighirardelli.u5_w1_d1.entities.Menu;
-import giovannighirardelli.u5_w1_d1.entities.Pizze;
+import giovannighirardelli.u5_w1_d1.entities.MenuItem;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -20,9 +20,8 @@ public class U5W1D1Application {
 //		Pizze p = context.getBean(Pizze.class);
 //		System.out.println(p);
 
-		List<Menu> menu = context.getBean(List.class);
-		menu.forEach(System.out::println);
-
+		Menu menu = context.getBean(Menu.class);
+		menu.printMenu();
 
 	}
 

@@ -3,12 +3,11 @@ package giovannighirardelli.u5_w1_d1.entities;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 
 @Setter
 @Getter
-public class Drinks extends Menu{
+public class Drinks extends MenuItem {
     private String drinkName;
 
 

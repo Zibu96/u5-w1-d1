@@ -1,16 +1,14 @@
 package giovannighirardelli.u5_w1_d1.entities;
 
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 
 @Setter
 @Getter
 
-public class Pizze extends Menu{
+public class Pizze extends MenuItem {
     private String pizzaName;
 
 
